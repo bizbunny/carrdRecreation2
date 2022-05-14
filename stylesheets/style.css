@@ -430,6 +430,7 @@ h1 .li, h2 .li, h3 .li, p .li {
 }
 #text06 a , #text01 a{
     text-decoration: underline;
+    text-decoration-color: #e88f3e;
 }
 #text07 , #text10{
     color: #e88f3e;

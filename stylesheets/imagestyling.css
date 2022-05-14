@@ -1,0 +1,28 @@
+/*----------------------Image Stuff------------------------------*/
+.containerImg {
+    margin: 10px;
+    overflow: hidden;
+    height: max-content;
+    width: 100%;
+    border-radius: 5px;
+    /*border-radius: 10px;
+    position: relative;
+    width: 100%;*/
+  }
+  .containerImg:hover .image {
+    opacity: 0.3;
+  }
+  .containerImg:hover .middle {
+    opacity: 1;
+  }
+  .image {
+    opacity: 1;/*
+    height: 400px; 
+    object-fit: cover;
+    object-position: 20% 35%; */
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    /*border-radius: 20px;*/
+  }
+  /*----------------------Image Stuff END------------------------------*/
+  
